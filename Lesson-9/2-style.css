@@ -1,0 +1,75 @@
+body{
+    background-color: rgb(219, 88, 88);
+    animation: body 3s infinite;
+}
+@keyframes body{
+    0%,100%{
+        background-color: rgb(73, 119, 245);
+    }
+    50%{
+        background-color: rgb(108, 230, 108);
+    }
+}
+
+.block{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+ 
+}
+.box{
+    width: 100px;
+    height: 200px;
+    border: 1px solid black;
+    
+}
+.box1{
+    background: yellow;
+    align-self: flex-end;
+    transition: 2s;
+}
+.box2{
+    background-color: red;
+    align-self: center;
+    
+    
+}
+.box3{
+    background-color: green;
+    transition: 2s;
+    animation: box3 2s;
+}
+.box1:hover{
+    height: 100vh;
+}
+.box2:hover{
+    height: 100px;
+    transition: 2s;
+    animation: box2 2s infinite;
+
+}
+.box3:hover{
+    height: 100vh;
+}
+.box2:active{
+    transform: rotate(360deg) scale(1.2);
+    border-radius: 20px;
+    background-color: brown;
+}
+
+ @keyframes box2{
+    0%,100%{
+        height: 100px;
+    }
+    50%{
+        height: 250px;
+        background-color: yellow;
+    }
+}
+.box3:active{
+    transform: rotate(720deg) scale(1.5);
+    border-radius: 100px;
+    background-color: rgba(75, 111, 255, 0.523);
+}
+

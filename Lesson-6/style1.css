@@ -1,0 +1,16 @@
+.box{
+    width: 100%;
+    height: 700px;
+    background-image: url(https://static.mondo.ba/Picture/389326/jpeg/ravna-zemlja);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.box1{
+    width: 100%;
+    height: 700px;
+    background-image: url(https://w.forfun.com/fetch/0d/0dd2b530ffb5bfb5dbc635841052b089.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}

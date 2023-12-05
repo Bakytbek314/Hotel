@@ -1,0 +1,37 @@
+/* .block{
+    margin-left: 200px;
+    width: 400px;
+    height: 600px;
+    background-color: blue;
+    position: relative;
+}
+.block::before{
+    position: absolute;
+    content: "Before";
+    font-size: 30px;
+    color: white;
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    right: 0;
+    bottom: 0;
+}
+.block::after{
+    position: absolute;
+    content: "after";
+    font-size: 30px;
+    color: white;
+    width: 300px;
+    height: 300px;
+    background-color: orange;
+    right: 0;
+    bottom: 0;
+
+} */
+
+.block{
+    width: 400px;
+    height: 400px;
+    border: 1px solid red;
+    overflow: scroll;
+}

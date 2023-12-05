@@ -1,0 +1,67 @@
+.solar-system{
+    height: 800px;
+    width: 1080ppx;
+    background-image: url(https://hitecher.com/storage/img/20190724/3fd14187cf2ad795d7a8.jpg);
+    background-size: cover;
+    position: relative;
+}
+.sun,.mercury,.venus,.earth,.mars,.jupiter,.saturn,.neptun,.uran{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+}
+.sun{
+    background-image: url(https://a0.anyrgb.com/pngimg/416/1578/meter-per-second-sun-flare-sun-rise-solar-flare-sun-glare-sun-light-cartoon-sun-quiche-sun-glasses-incense.png);
+    background-size: cover;
+    top: 340px;
+    left: 740px;
+}
+.mercury{
+    background-image: url(https://flyclipart.com/thumbs/pluto-was-discovered-by-clyde-tombaugh-in-1930-and-mercury-planet-transparent-1611220.png);
+    background-size: cover;
+    top: 250px;
+    left: 650px;
+}
+.venus{
+    background-image: url();
+    background-size: cover;
+    top: 200px;
+    left: 600px;
+}
+.earth{
+    background-image: url();
+    background-size: cover;
+    top: 200px;
+    left: 600px;
+}
+.mars{
+    background-image: url();
+    background-size: cover;
+    top: 200px;
+    left: 600px;
+}
+.jupiter{
+    background-image: url();
+    background-size: cover;
+    top: 200px;
+    left: 600px;
+}
+.saturn{
+    background-image: url();
+    background-size: cover;
+    top: 200px;
+    left: 600px;
+}
+.neptun{
+    background-image: url();
+    background-size: cover;
+    top: 200px;
+    left: 600px;
+}
+.uran{
+    background-image: url();
+    background-size: cover;
+    top: 200px;
+    left: 600px;
+}

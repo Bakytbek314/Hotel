@@ -1,0 +1,83 @@
+.block{
+    border: 2px solid black;
+    width: 80px;
+    height: 200px;
+    background-color: gray;
+}
+.circle1,.circle2,.circle3{
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    margin: 0 auto;
+    border-radius: 100%;
+    margin-top: 10px;
+    transition: 1s;
+}
+.circle1:hover{
+    background-color: red;
+}
+.circle2:hover{
+    background-color: yellow;
+}
+.circle3:hover{
+    background-color: green;
+}
+
+.block1{
+    border: 2px solid black;
+    width: 80px;
+    height: 200px;
+    background-color: gray;
+}
+.circle4,.circle5,.circle6{
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    margin: 0 auto;
+    border-radius: 100%;
+    margin-top: 10px;
+    transition: 1s;
+}
+.circle4:hover{
+    background-color: red;
+}
+.circle5:hover{
+    background-color: yellow;
+}
+.circle6:hover{
+    background-color: green;
+}
+.circle4:active{
+    background-color: pink;
+}
+.circle5:active{
+    background-color: yellowgreen;
+}
+.circle6:active{
+    background-color: greenyellow;
+}
+
+.post{
+    height: 400px;
+    width: 260px;
+    position: relative;
+    border: 1px solid black;
+}
+.picture{
+    height: 200px;
+    width: 200px;
+    margin-left: 30px;
+    margin-top: 30px;
+    position: absolute;
+}
+img{
+    height: 100px;
+    width: 100px;
+}
+p{
+margin-top: 150px;
+}
+button{
+    margin-bottom: 0;
+    margin-left: 0 auto;
+}

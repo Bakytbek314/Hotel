@@ -1,0 +1,14 @@
+.form{
+    width: 70%;
+    margin: auto;
+    background-color: rgb(200, 104, 72);
+}
+.apply{
+    margin-left: 20px;
+}
+.input{
+    margin-left: 200px;
+}
+body{
+    color: orange;
+}

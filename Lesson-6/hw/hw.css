@@ -1,0 +1,36 @@
+.box{
+    height: 500px;
+    width: 500px;
+    position: relative;
+    border: 2px solid black;
+}
+.box1{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    background-color: red;
+    /* transition: transform 1s; */
+    animation: box1 3s 3;
+}
+/* .box1:hover{
+    transform: translateX(400%);
+    transform: translateY(400%);
+} */
+@keyframes box1{
+    0%, 100%{
+        top: 0;
+        left:0;
+    }
+    25%{
+        top: 400px;
+        left: 0;
+    }
+    50%{
+        left: 400px;
+        top: 400px;
+    }
+    75%{
+        top: 0;
+        left: 400px;
+    }
+}

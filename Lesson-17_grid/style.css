@@ -1,0 +1,99 @@
+/* .grid_container{
+    height: 100vh;
+    padding: 10px;
+    border: 3px solid red;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+.box{
+    border: 3px solid black;
+} */
+
+.block{
+    display: grid;
+    height: 100vh;
+    border: 1px solid black;
+    gap: 10px;
+    background-color: rgb(45, 45, 149);
+    grid-template-areas: 
+    "box1 box1 box2"
+    "box3 box4 box2"
+    "box3 box5 box5"
+    ;
+}
+
+.box1{
+    grid-area: box1;
+    background-image: url("https://c.wallhere.com/photos/3c/be/1920x1080_px_mountain_snow-541925.jpg!d");
+    background-size: cover;
+    background-position: center;
+}
+.box2{
+    grid-area: box2;
+    background-image: url("http://pm1.aminoapps.com/7266/80e0f46579a4ac1b1f53baab78995cdee07f6ea5r1-2000-1313v2_uhq.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.box3{
+    grid-area: box3;
+    background-image: url("https://7kingdoms.ru/wp-content/uploads/2018/10/max-riess-thegate-final-2k.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.box4{
+    grid-area: box4;
+    background-image: url("https://2.bp.blogspot.com/-cjOW0ZGlcdI/XOPN75IIBoI/AAAAAAAADCc/BBeoSc5iJP0kwurtzwwx_aqvohjB8JiUgCKgBGAs/w3840-h2400-c/daenerys-targaryen-game-of-thrones-iron-throne-season-8-uhdpaper.com-4K-89.jpg");
+    background-size: cover;
+    background-position: center;
+    
+}
+.box5{
+    grid-area: box5;
+    background-image: url("https://i.pinimg.com/originals/a4/d9/29/a4d9290f196e87c6cd00652e5bad5c46.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.case_m{
+    display: grid;
+    height: 100%;
+    border: 1px solid black;
+    gap: 5px;
+    z-index: 1;
+    grid-template-areas: 
+    "case1 case1 case2"
+    "case3 case4 case2"
+    "case3 case5 case5"
+    ;
+}
+.case1{
+    grid-area: case1;
+    background-image: url("https://c.wallhere.com/photos/3c/be/1920x1080_px_mountain_snow-541925.jpg!d");
+    background-size: cover;
+    background-position: center;
+}
+.case2{
+    grid-area: case2;
+    background-image: url("http://pm1.aminoapps.com/7266/80e0f46579a4ac1b1f53baab78995cdee07f6ea5r1-2000-1313v2_uhq.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.case3{
+    grid-area: case3;
+    background-image: url("https://7kingdoms.ru/wp-content/uploads/2018/10/max-riess-thegate-final-2k.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.casex4{
+    grid-area: case4;
+    background-image: url("https://2.bp.blogspot.com/-cjOW0ZGlcdI/XOPN75IIBoI/AAAAAAAADCc/BBeoSc5iJP0kwurtzwwx_aqvohjB8JiUgCKgBGAs/w3840-h2400-c/daenerys-targaryen-game-of-thrones-iron-throne-season-8-uhdpaper.com-4K-89.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.case5{
+    grid-area: case5;
+    background-image: url("https://i.pinimg.com/originals/a4/d9/29/a4d9290f196e87c6cd00652e5bad5c46.jpg");
+    background-size: cover;
+    background-position: center;
+}

@@ -1,0 +1,32 @@
+.navbar{
+    background: #5453539f;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    /* position: fixed;
+    width: 100%; */
+    position: sticky;
+    top: 0;
+}
+
+nav{
+    font-family: 'Noto Sans NKo Unjoined', sans-serif;
+/* font-family: 'Pacifico', cursive;
+font-family: 'Roboto', sans-serif; */
+}
+
+.box{
+    position: fixed;
+    padding: 20px;
+    border: 1px solid red;
+    border-radius: 50%;
+    transition: 2s;
+    right: 200px;
+    bottom: 200px;
+}
+.box:hover{
+    background-color: #4757bd5f;
+}
+html{
+    scroll-behavior: smooth;
+}

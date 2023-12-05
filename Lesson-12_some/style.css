@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 80px;
+    width: 500px;
+    justify-content: space-between;
+}
+.lo_go{
+    width: 60px;
+    height: 60px;
+}
+.slogan{
+    width: 420px;
+    height: 20px;
+}
+
+/* navbar */
+.menu{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+    background-color: rgb(37, 37, 37);
+    color: aliceblue;
+}
+.list{
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+    list-style: none;
+}
+.list li{
+    cursor: pointer;
+}
+
+/* section content */
+#section_content{
+    width: 500px;
+    /* height: 100vh; */
+    
+    margin: 0 auto;
+}
+.content_photo{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.photo{
+    width: 160px;
+}
+
+/* section content */
+.programm{
+    /* width: 500px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.programm h3{
+    color: rgb(4, 154, 91);
+    margin-top: 25px;
+}
+.programm img{
+    width: 500px;
+    margin-top: 20px;
+}
+
+
+.block{
+    width: 120px;
+    height: 260px;
+    border: 1px solid;
+    margin-top: 50px;
+}
+.block h5{
+    text-align: center;
+    color: rgb(4, 154, 91);
+}
+.block img{
+    width: 100px;
+    margin-top: 15px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+.block p{
+    text-align: center;
+}
+.form{
+    width: 100px;
+    border: 1px solid;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.block button{
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: rgb(4, 154, 91);
+    color: aliceblue    ;
+}
+
+
+.about_project h3{
+     text-align: center;
+     color: rgb(4, 154, 91);
+     margin-top: 40px;
+}
+.about_project p{
+    text-align: center;
+    margin-top: 10px;
+}
+.contact h3{
+    text-align: center;
+    color: rgb(4, 154, 91);
+    margin-top: 20px;
+}
+.contact_photo{
+    display: flex;
+    justify-content: space-between;
+}
+.con_ph{
+    margin-top: 20px;
+    height: 140px;
+}
+.end{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 10px;
+}
+footer{
+    background-color: rgb(15, 63, 40);
+    margin-top: 30px;
+}
+.footer_content{
+    width: 500px;
+    height: 100px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.footer_content{
+    text-align: center;
+    color: aliceblue;
+}
+.footer_content p{
+    font-size: 10px;
+    margin-top: 5px;
+}
+
+@media (max-width:416px){
+    .logo{
+        width: 300px;
+    }
+    .list{
+        width: 300px;
+    }
+}

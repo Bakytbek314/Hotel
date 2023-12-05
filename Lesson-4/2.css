@@ -1,0 +1,48 @@
+.block{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    margin: 0 auto;
+}
+.box1,.box2,.box3,.box4{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    transition: 1s;
+}
+.box1{
+    background-image: url(https://img.goodfon.ru/original/2048x2048/6/7e/alpy-alpes-alpen-gory.jpg);
+    left: 0;
+    top: 0;
+    border-radius: 100% 0 0 0;
+}
+.box2{
+    background-image:url(https://yt3.ggpht.com/ytc/AKedOLQOVqBSAHzYzbLbSwul3R5yiLRcte-15NZqrZZC=s900-c-k-c0x00ffffff-no-rj);
+    right: 0;
+    top: 0;
+    border-radius: 0 100% 0 0;
+}
+.box3{
+    background-image:url(https://sun6-20.userapi.com/s/v1/if2/F1D2bgPYtL5B-2WN5mUv0cVoYWmVKgpvZ9I2T6Qvv1JZRumP0nsznhNgcuqHoqL7lN89fZzvzhdOHWwtULlsSxGA.jpg?size=1586x1588&quality=96&crop=372,12,1586,1588&ava=1);
+    right: 0;
+    bottom: 0;
+    border-radius: 0 0 100% 0;
+}
+.box4{
+    background-image: url(https://www.madetoexplore.ca/wp-content/uploads/2019/10/fishing-lake-ohara-7-e1612917784518-2048x2048.jpg);
+    left: 0;
+    bottom: 0;
+    border-radius: 0 0 0 100%;
+}
+.box1:hover{
+    border-radius: 0;
+}
+.box2:hover{
+    border-radius: 0;
+}
+.box3:hover{
+    border-radius: 0;
+}
+.box4:hover{
+    border-radius: 0;
+}

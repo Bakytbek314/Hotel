@@ -1,0 +1,34 @@
+.box{
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    position: relative;
+}
+.circle{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    background-image: url(https://sernia.ru/upload/medialibrary/890/myach.png);
+    background-size: cover;
+    position: absolute;
+    animation-name: circle;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes circle{
+    0%, 100%{
+        left: 0;
+        top: 0;
+        
+    }
+    33%{
+        left: 420px;
+        top: 0;
+        transform: rotate(720deg);
+    }
+    66%{
+        left: 420px;
+        top: 0;
+        transform: rotate(360deg);
+    }
+}

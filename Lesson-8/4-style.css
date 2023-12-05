@@ -1,0 +1,62 @@
+/* .block{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    margin: 0 auto;
+    animation: block 2s ;
+    transition: 2s;
+}
+.block::before{
+    position: absolute;
+    content: "";
+    background-image: url(https://cutewallpaper.org/21/star-wars-background-wallpaper/Star-Wars-Space-Background-69%2B-images-.jpg);
+    width: 400px;
+    height: 400px;
+    bottom: 0;
+}
+.block::after{
+    position: absolute;
+    content: "StarWars";
+    font-size: 30px;
+    color: yellow;
+    bottom: 0;
+}
+.block:hover::before{
+    top: 0;
+}
+.block:hover::after{
+    top: 200px;
+    left: 200px;
+    
+} */
+
+.block{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    margin: 0 auto;
+}
+.box{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    bottom: 0;
+    background-image: url(https://cutewallpaper.org/21/star-wars-background-wallpaper/Star-Wars-Space-Background-69%2B-images-.jpg);
+    border: 1px solid black;
+    transition: 1s;
+    bottom: 0;
+}
+.text{
+    font-size: 32px;
+    color: yellow;
+    position: absolute;
+    bottom: 0;
+    left: 150px;
+    transition: 3s;
+}
+.box:hover{
+    top: 0;
+}
+.text:hover{
+    top: 100px;
+}
